@@ -1,0 +1,17 @@
+harry:
+  name: Harry Bairstow
+  title: Project Maintainer
+  url: https://harryet.xyz
+  image_url: https://github.com/harryet.png
+
+olyno:
+  name: Olyno
+  title: Project Maintainer
+  url: https://github.com/olyno
+  image_url: https://github.com/olyno.png
+
+victor:
+  name: Victor Peralta
+  title: Project Maintainer
+  url: https://github.com/victorperalta
+  image_url: https://github.com/victorperalta.png

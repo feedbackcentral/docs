@@ -1,0 +1,76 @@
+---
+id: about
+title: Introduction
+description: 'What is Feedback Central?'
+slug: /
+hide_table_of_contents: true
+---
+
+import TwitterLogo from '@site/static/img/integrations/twitter-icon.svg'
+
+import useBaseUrl from '@docusaurus/useBaseUrl'
+import Link from '@docusaurus/Link'
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
+const integrations = [
+  { name: 'Twitter', logo: TwitterLogo, href: '/guides/integrations/twitter' },
+]
+
+Feedback Central is the AI powered feedback aggregator made originally for the Supabase "Bring the Func(🕺)" Hackathon
+
+## Getting started
+
+Visit [feedbackcentral.io](https://feedbackcentral.io) and sign-in, then pick one of the feedback tools or social media networks below to get started aggregating your feedback.
+
+<div>
+  <div class="row is-multiline">
+    {integrations.map((x) => (
+      <div key={x.name} class="col col--3">
+        <Link class="card" to={x.href}>
+          <div class="card__body" style={{ display: 'flex', gap: 20, alignItems: 'center' }}>
+            {x.logo && (
+              <x.logo width="20" alt={x.name} style={{ display: 'block', maxHeight: 20 }} />
+            )}
+            <p>{x.name}</p>
+          </div>
+        </Link>
+      </div>
+    ))}
+  </div>
+</div>
+
+## How to use these docs
+
+The documentation is divided into 2 sections with a blog.
+
+<div class="container" style={{ padding: 0 }}>
+  <div class="row is-multiline">
+    {/* reference */}
+    <div class="col col--4">
+      <Link class="card" to="/" style={{ height: '100%' }}>
+        <div class="card__body">
+          <h4>Reference</h4>
+          <p>An overview of the project as well as individual parts.</p>
+        </div>
+      </Link>
+    </div>
+    {/* guides */}
+    <div class="col col--4">
+      <Link class="card" to="/guides" style={{ height: '100%' }}>
+        <div class="card__body">
+          <h4>Guides</h4>
+          <p>In-depth explanations for each tool.</p>
+        </div>
+      </Link>
+    </div>
+    {/* blog */}
+    <div class="col col--4">
+      <Link class="card" to="/blog" style={{ height: '100%' }}>
+        <div class="card__body">
+          <h4>Blog</h4>
+          <p>The latest updates, changes and announcements from the team.</p>
+        </div>
+      </Link>
+    </div>
+  </div>
+</div>

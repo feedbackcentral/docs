@@ -1,0 +1,43 @@
+{
+  "name": "feedbackcentral-docs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start --port 3005",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-beta.6",
+    "@docusaurus/preset-classic": "2.0.0-beta.6",
+    "@kiwicopple/prism-react-renderer": "github:kiwicopple/prism-react-renderer",
+    "jsrsasign": "^10.4.1",
+    "mermaid": "^8.6.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-inlinesvg": "^2.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^14.17.34",
+    "axios": "^0.21.1",
+    "babel-plugin-css-modules-transform": "^1.6.2",
+    "clsx": "^1.1.1",
+    "dotenv": "^10.0.0",
+    "js-yaml": "^3.14.0",
+    "minimist": "^1.2.5",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.3"
+  }
+}

@@ -13,7 +13,7 @@ module.exports = {
   title: 'Feedback Central',
   tagline: 'The AI powered feedback aggregator.',
   url: 'https://docs.feedbackcentral.io',
-  baseUrl: '/',
+  baseUrl: '/docs',
   favicon: '/favicon.ico', // TODO Make favicon
   organizationName: 'feedbackcentral',
   projectName: 'feedbackcentral',
